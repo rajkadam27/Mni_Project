@@ -1,0 +1,140 @@
+/* Base Styling */
+.theme-simulation-container {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Light Theme */
+.theme-simulation-container.light {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.theme-simulation-container.light .theme-selection-section {
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+}
+
+.theme-simulation-container.light .message-section {
+  background-color: #eaeaea;
+}
+
+.theme-simulation-container.light .theme-info-section {
+  background-color: #f1f1f1;
+}
+
+/* Dark Theme */
+.theme-simulation-container.dark {
+  background-color: #181818;
+  color: #f0f0f0;
+}
+
+.theme-simulation-container.dark .theme-selection-section {
+  background-color: #242424;
+  border: 1px solid #444;
+}
+
+.theme-simulation-container.dark .message-section {
+  background-color: #333333;
+}
+
+.theme-simulation-container.dark .theme-info-section {
+  background-color: #2a2a2a;
+}
+
+/* Blue Theme */
+.theme-simulation-container.blue {
+  background-color: #e0f7fa;
+  color: #00695c;
+}
+
+.theme-simulation-container.blue .theme-selection-section {
+  background-color: #b2ebf2;
+  border: 1px solid #80deea;
+}
+
+.theme-simulation-container.blue .message-section {
+  background-color: #80deea;
+}
+
+.theme-simulation-container.blue .theme-info-section {
+  background-color: #4dd0e1;
+}
+
+/* Green Theme */
+.theme-simulation-container.green {
+  background-color: #e8f5e9;
+  color: #388e3c;
+}
+
+.theme-simulation-container.green .theme-selection-section {
+  background-color: #c8e6c9;
+  border: 1px solid #a5d6a7;
+}
+
+.theme-simulation-container.green .message-section {
+  background-color: #a5d6a7;
+}
+
+.theme-simulation-container.green .theme-info-section {
+  background-color: #81c784;
+}
+
+/* Red Theme */
+.theme-simulation-container.red {
+  background-color: #ffebee;
+  color: #d32f2f;
+}
+
+.theme-simulation-container.red .theme-selection-section {
+  background-color: #ffcdd2;
+  border: 1px solid #ef9a9a;
+}
+
+.theme-simulation-container.red .message-section {
+  background-color: #ef9a9a;
+}
+
+.theme-simulation-container.red .theme-info-section {
+  background-color: #e57373;
+}
+
+/* Shared Styles for Sections */
+.theme-selection-section,
+.message-section,
+.steps-section,
+.theme-info-section {
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+.theme-selection-section h2,
+.message-section h3,
+.steps-section h3,
+.theme-info-section h3 {
+  font-size: 1.6em;
+  margin-bottom: 10px;
+}
+
+.theme-select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.steps-section ol {
+  font-size: 1.1em;
+}
+
+.theme-info-section p {
+  font-size: 1.1em;
+  line-height: 1.5;
+}
